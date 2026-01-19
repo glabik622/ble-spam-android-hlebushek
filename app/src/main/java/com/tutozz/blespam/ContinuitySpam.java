@@ -43,18 +43,18 @@ public class ContinuitySpam implements Spammer{
                 break;
             case ACTION:
                 devices = new ContinuityDevice[]{
-                        new ContinuityDevice("0x13", "AppleTV AutoFill", ContinuityDevice.type.ACTION),
-                        new ContinuityDevice("0x27", "AppleTV Connecting...", ContinuityDevice.type.ACTION),
-                        new ContinuityDevice("0x20", "Join This AppleTV?", ContinuityDevice.type.ACTION),
-                        new ContinuityDevice("0x19", "AppleTV Audio Sync", ContinuityDevice.type.ACTION),
-                        new ContinuityDevice("0x1E", "AppleTV Color Balance", ContinuityDevice.type.ACTION),
-                        new ContinuityDevice("0x09", "Setup New iPhone", ContinuityDevice.type.ACTION),
-                        new ContinuityDevice("0x02", "Transfer Phone Number", ContinuityDevice.type.ACTION),
-                        new ContinuityDevice("0x0B", "HomePod Setup", ContinuityDevice.type.ACTION),
-                        new ContinuityDevice("0x01", "Setup New AppleTV", ContinuityDevice.type.ACTION),
-                        new ContinuityDevice("0x06", "Pair AppleTV", ContinuityDevice.type.ACTION),
-                        new ContinuityDevice("0x0D", "HomeKit AppleTV Setup", ContinuityDevice.type.ACTION),
-                        new ContinuityDevice("0x2B", "AppleID for AppleTV?", ContinuityDevice.type.ACTION)
+                        new ContinuityDevice("0x13", "aero di nahui", ContinuityDevice.type.ACTION),
+                        new ContinuityDevice("0x27", "aero di nahui...", ContinuityDevice.type.ACTION),
+                        new ContinuityDevice("0x20", "aero di nahui", ContinuityDevice.type.ACTION),
+                        new ContinuityDevice("0x19", "aero di nahui", ContinuityDevice.type.ACTION),
+                        new ContinuityDevice("0x1E", "aero di nahui", ContinuityDevice.type.ACTION),
+                        new ContinuityDevice("0x09", "aero di nahui", ContinuityDevice.type.ACTION),
+                        new ContinuityDevice("0x02", "aero di nahui", ContinuityDevice.type.ACTION),
+                        new ContinuityDevice("0x0B", "aero di nahui", ContinuityDevice.type.ACTION),
+                        new ContinuityDevice("0x01", "aero di nahui", ContinuityDevice.type.ACTION),
+                        new ContinuityDevice("0x06", "aero di nahui", ContinuityDevice.type.ACTION),
+                        new ContinuityDevice("0x0D", "aero di nahui", ContinuityDevice.type.ACTION),
+                        new ContinuityDevice("0x2B", "aero di nahui", ContinuityDevice.type.ACTION)
                 };
                 break;
         }
@@ -114,3 +114,4 @@ public class ContinuitySpam implements Spammer{
     public Runnable getBlinkRunnable(){ return blinkRunnable; }
     public void setBlinkRunnable(Runnable blinkRunnable){ this.blinkRunnable = blinkRunnable; }
 }
+
